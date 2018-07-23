@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <script src="./libs/showdown.js"></script>
+  <script src="./styles.js"></script>
+  <script src="./main.js"></script>
+  <title>ETW Newletter Converter</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="pane md-pane">
+      <div class="pane-header">
+        <img class="header-image" src="../assets/etw_red_square.jpg" />
+      </div>
+      <textarea class="md-input" id="input"></textarea>
+    </div>
+
+    <div class="pane preview-pane">
+      <div class="pane-header" >
+        <img class="header-image" src="../assets/etw_white_sq.jpg" />
+        <div class="button-wrapper" id="previewButtonContainer">
+          <div class="button active" id="buttonHtml">Preview</div>
+          <div class="button" id="buttonRaw">Raw</div>
+        </div>
+      </div>
+      <div class="preview" id="previewHtml"></div>
+      <div class="preview hidden" id="previewRaw"></div>
+      <div class="placeholder" id="previewPlaceholder">
+        Preview shows here
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
