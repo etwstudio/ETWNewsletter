@@ -13,5 +13,5 @@ For the templates to work the best with the converter, make sure the input markd
 * Use H5 for Subheaders 
 * Use `----` (horizontal line) as separator. 
 
-Refer to the `templates` folder for examples.
+Refer to the `tests` folder for examples.
 
